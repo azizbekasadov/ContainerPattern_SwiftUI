@@ -14,6 +14,8 @@
 		5D0C6485297BEAEC0048C358 /* ContainerPattern_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C6484297BEAEC0048C358 /* ContainerPattern_SwiftUITests.swift */; };
 		5D0C648F297BEAEC0048C358 /* ContainerPattern_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C648E297BEAEC0048C358 /* ContainerPattern_SwiftUIUITests.swift */; };
 		5D0C6491297BEAEC0048C358 /* ContainerPattern_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C6490297BEAEC0048C358 /* ContainerPattern_SwiftUIUITestsLaunchTests.swift */; };
+		5D0C64A2297BEF660048C358 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C64A1297BEF660048C358 /* Product.swift */; };
+		5D0C64A5297BEF820048C358 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C64A4297BEF820048C358 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		5D0C648A297BEAEC0048C358 /* ContainerPattern_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContainerPattern_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0C648E297BEAEC0048C358 /* ContainerPattern_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPattern_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		5D0C6490297BEAEC0048C358 /* ContainerPattern_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPattern_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D0C64A1297BEF660048C358 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5D0C64A4297BEF820048C358 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +98,11 @@
 		5D0C6472297BEAEA0048C358 /* ContainerPattern_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				5D0C6473297BEAEA0048C358 /* ContainerPattern_SwiftUIApp.swift */,
-				5D0C6475297BEAEA0048C358 /* ContentView.swift */,
-				5D0C6477297BEAEC0048C358 /* Assets.xcassets */,
+				5D0C64A3297BEF7B0048C358 /* Network */,
+				5D0C64A0297BEF610048C358 /* Data */,
+				5D0C649D297BEAF10048C358 /* App */,
+				5D0C649F297BEAFA0048C358 /* Presentation */,
+				5D0C649E297BEAF50048C358 /* Resources */,
 				5D0C6479297BEAEC0048C358 /* Preview Content */,
 			);
 			path = ContainerPattern_SwiftUI;
@@ -125,6 +131,46 @@
 				5D0C6490297BEAEC0048C358 /* ContainerPattern_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = ContainerPattern_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		5D0C649D297BEAF10048C358 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C6473297BEAEA0048C358 /* ContainerPattern_SwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5D0C649E297BEAF50048C358 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C6477297BEAEC0048C358 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D0C649F297BEAFA0048C358 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C6475297BEAEA0048C358 /* ContentView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		5D0C64A0297BEF610048C358 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C64A1297BEF660048C358 /* Product.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5D0C64A3297BEF7B0048C358 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C64A4297BEF820048C358 /* API.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +305,8 @@
 			files = (
 				5D0C6476297BEAEA0048C358 /* ContentView.swift in Sources */,
 				5D0C6474297BEAEA0048C358 /* ContainerPattern_SwiftUIApp.swift in Sources */,
+				5D0C64A5297BEF820048C358 /* API.swift in Sources */,
+				5D0C64A2297BEF660048C358 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
